@@ -3,4 +3,4 @@ project(Pilha C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Pilha lista-encadeada.c)
+add_executable(Pilha esqueleto-pop.c)
