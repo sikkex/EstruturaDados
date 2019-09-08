@@ -52,6 +52,10 @@ int peek(TPilha *pilha) {
     return pilha->topo->info;
 }
 
+/**
+* Imprime a pilha do topo para o início
+* utilizando a pop e puxh
+*/
 void imprime_pilha(TPilha *pilha) {
     int x;
     printf("\nEstado atual da Pilha:\n");
@@ -68,6 +72,9 @@ void imprime_pilha(TPilha *pilha) {
     printf("\n");
 }
 
+/**
+* Altera o topo da pilha
+*/
 void altera(TPilha *p, int novo){
     p->topo->info = novo;
 }
