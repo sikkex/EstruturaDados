@@ -57,21 +57,17 @@ void imprime_lista (TLista* li) {
         printf("info = %d\n", p->info);
 }
 
+/** Função que altera um elemento selecionado
+* e retorna a lista atualizda
+*/
 TLista* altera(TLista* li, int vantigo, int vnovo){
-    TLista* novo = (TLista*) malloc(sizeof(TLista));
-    novo->info = vnovo;
-    TLista* p = li;
-    TLista* q = li;
-    while (p != NULL) { /* encontra o ultimo elemento */
-        q = p;
-        p = p->prox;
-    }
-    if (q != NULL) /* se a lista original não estiver vazia */
-        q->prox = novo;
-    else
-        li = novo;
-    return li;
+    
 }
+
+/**
+* Função responsável por excluir um elemento da lista
+* e retorna a nova lista.
+*/
 TLista* exclui(TLista* li, int i){
     TLista* novo = cria_lista();
     TLista* ant = NULL;
