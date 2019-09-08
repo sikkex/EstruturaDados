@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(ListaEncadeada C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(ListaEncadeada main.c lista_encadeada.h)
