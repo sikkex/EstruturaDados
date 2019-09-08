@@ -1,0 +1,3 @@
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/cmake-build-debug/CMakeFiles/Pilha.dir

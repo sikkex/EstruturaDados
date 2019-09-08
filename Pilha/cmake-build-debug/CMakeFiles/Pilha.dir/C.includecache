@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/lista-encadeada.c
+lista-encadeada.h
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/lista-encadeada.h
+
+/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/Pilha/lista-encadeada.h
+stdio.h
+-
+stdlib.h
+-
+
