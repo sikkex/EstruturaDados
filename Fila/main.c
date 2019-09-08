@@ -71,6 +71,10 @@ void imprime_fila(TFila *f){
     int x = retira(nova);
     printf("%d", x);
 }
+
+/**
+* Altera o inicio da fila
+*/
 void altera_inicio_fila(TFila *f, int novo){
     TFila* aux = inicializa();
     insere(aux, novo);
