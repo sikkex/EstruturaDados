@@ -1,4 +1,4 @@
-# Install script for directory: /Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/ListaEncadeada
+# Install script for directory: /Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/EstruturaDados/ListaEncadeada
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/ListaEncadeada/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/danielmattos/Documents/Desenvolvedor/EstruturaDados/EstruturaDados/ListaEncadeada/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
